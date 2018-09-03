@@ -16,4 +16,5 @@ static EGAppDelegateProxy *defaultProxy;
 
 +(NSString *)proxyWithTargetClass:(Class)targetClass;
 -(instancetype)init;
++(instancetype)getDefault;
 @end
